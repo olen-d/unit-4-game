@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.bg-img {
+    width: 100%;
+    height: auto;
+}
+.game-content {
+    position: fixed;
+    top: 0px;
+    width: 90%;
+    margin: 0 5% 0 5%;    
+}
+
+.game-title {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.character-card {
+    float: left;
+    width: 150px;
+    background-color: #ffffff;
+    margin-right:10px;
+    border: 2px solid #44aa44;
+}
+
+.character-card p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.character {
+    width: 130px;
+    object-fit: contain;
+}
+
+.your-character, 
+.enemies-available, 
+.fight-section, 
+.defender, 
+.battle-status {
+    text-align: left;
+}
+.your-character {
+    clear: left;
+}
