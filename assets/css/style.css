@@ -4,10 +4,14 @@ body {
 
 h1 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .wrapper {
@@ -26,7 +30,7 @@ h2 {
 }
 
 .game-title {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: right;
 }
 
@@ -36,25 +40,46 @@ h2 {
     background-color: #ffffff;
     margin-right:10px;
     border: 2px solid #44aa44;
+    text-align: center;
 }
 
 .character-card p {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
 }
 
 .character {
     width: 130px;
+    height: 60px;
     object-fit: contain;
 }
 
+.characters-available,
 .your-character, 
 .enemies-available, 
 .fight-section, 
 .defender, 
 .battle-status {
     text-align: left;
+    clear:left;
 }
-.your-character {
-    clear: left;
+
+.button {
+    width: 3rem;
+    padding: 10px;
+    margin: 5px;
+    background: #888888;
+    color: #000000;
+    border: solid 1px #333333;
+    border-radius: 10px;
+}
+
+#restart {
+    visibility:hidden;
+}
+
+.garbage-dump {
+    float: right;
+    visibility: hidden;
 }
