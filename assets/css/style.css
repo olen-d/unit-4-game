@@ -1,17 +1,21 @@
 body {
     text-align: center;
+    font-family: Raleway;
+}
+
+h1, h2 {
+    font-family: 'Poller One';
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    padding-top: 0.9rem;
+    margin-bottom: 0.9rem;
 }
 
 .wrapper {
@@ -30,7 +34,7 @@ h2 {
 }
 
 .game-title {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: right;
 }
 
@@ -39,8 +43,9 @@ h2 {
     width: 150px;
     background-color: #ffffff;
     margin-right:10px;
-    border: 2px solid #44aa44;
+    border: 3px solid #44aa44;
     text-align: center;
+    border-radius: 10px;
 }
 
 .character-card p {
@@ -53,6 +58,7 @@ h2 {
     width: 130px;
     height: 60px;
     object-fit: contain;
+    border-radius: 3px;
 }
 
 .characters-available,
@@ -65,18 +71,34 @@ h2 {
     clear:left;
 }
 
+.battle-status {
+    padding-top:0.5rem;
+}
+
+.battle-status p {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 .button {
     width: 3rem;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 7px;
     background: #888888;
     color: #000000;
     border: solid 1px #333333;
     border-radius: 10px;
+    font-size: 0.8rem;
 }
 
 #restart {
     visibility:hidden;
+}
+
+.winning {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #000000;
 }
 
 .garbage-dump {

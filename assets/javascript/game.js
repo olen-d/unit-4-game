@@ -73,7 +73,7 @@ $(document).ready(function() {
         charList.forEach(function(char) {
             if (charChosen !== char) {
                 $("#" + char).appendTo(".enemies-available");
-                $("#" + char).css({"background": "#ff0000","border": "solid 2px #000000"});
+                $("#" + char).css({"background": "#ff0000","border": "solid 2px #880000"});
                 enemiesList.push(char);
             }   
         });
@@ -159,7 +159,7 @@ $(document).ready(function() {
                 enemyCount--;
                 if (enemyCount == 0) {
                     $(".battle-status").html("<p>You have defeated " + defender.name + ".");
-                    $(".battle-status").append("<p>Congratulations, you have defeated all enemies and won the game! </p>");
+                    $(".battle-status").append("<p class=\"winning\">Congratulations, you have defeated all enemies and won the game! </p>");
                     $("#restart").css("visibility","visible"); 
                 }  
             } 
