@@ -29,7 +29,7 @@ function Character (name, hp, attack, counterAttack) {
 
 // Health points, base attack power, and counter attack power
 let obi = new Character("Obi-Wan Kenobi", 130, 12, 9);
-let luke = new Character("Luke Skywalker", 115, 22, 6);
+let luke = new Character("Luke Skywalker", 120, 22, 6);
 let sid = new Character("Darth Sidious", 150, 7, 20);
 let maul = new Character("Darth Maul", 170, 5, 23);
 
